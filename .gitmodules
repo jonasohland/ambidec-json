@@ -1,0 +1,9 @@
+[submodule "Higher-Order-Ambisonics"]
+	path = Higher-Order-Ambisonics
+	url = https://github.com/polarch/Higher-Order-Ambisonics
+[submodule "Spherical-Harmonic-Transform"]
+	path = Spherical-Harmonic-Transform
+	url = https://github.com/polarch/Spherical-Harmonic-Transform
+[submodule "Vector-Base-Amplitude-Panning"]
+	path = Vector-Base-Amplitude-Panning
+	url = https://github.com/polarch/Vector-Base-Amplitude-Panning
