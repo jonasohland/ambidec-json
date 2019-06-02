@@ -6,12 +6,24 @@ decoder = ambiDecoder(lss, method, maxre, order);
 output = struct();
 
 output.decoder = decoder;
+
 output.order = order;
+
 output.format = 'acn';
+
 output.coords = lss;
+
 output.type = method;
+
 output.maxre = maxre;
+
 [output.spks, output.harmonics] = size(lss);
+
+[status, output.author] = system("id -F");
+
+output.author = strtrim(output.author);
+
+output.created_with = "MATLAB - HOA Toolbox";
 
 if (maxre)
     maxre_append = "_maxre";
